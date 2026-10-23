@@ -9,11 +9,7 @@
 
 ## Схема
 
-![Архитектура сервиса](docs/architecture.png)
-
-Зелёные стрелки — запросы в провайдеры, синие — их webhook'и обратно,
-серые — SQL read/write. `Dispatcher + Watchdog` живут внутри FastAPI
-(asyncio), отдельного контейнера под них нет. Исходник: `docs/architecture.svg`.
+![Архитектура сервиса](architecture.png)
 
 ---
 
